@@ -1,0 +1,10 @@
+{
+  "fixture": "requirement",
+  "enabled": true,
+  "items": [
+    {
+      "id": 1,
+      "name": "Requirement Fixture"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "fixture": "tool",
+  "enabled": true,
+  "items": [
+    {
+      "id": 1,
+      "name": "Tool Fixture"
+    }
+  ]
+}

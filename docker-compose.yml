@@ -1,0 +1,69 @@
+version: '3.8'
+
+services:
+  forge-it-backend:
+    build: ./backend
+    container_name: forge-it-backend
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:h2:mem:forgeit
+      - SPRING_DATASOURCE_DRIVERCLASSNAME=org.h2.Driver
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      - SPRING_H2_CONSOLE_ENABLED=true
+    volumes:
+      - ./backend:/app
+    depends_on:
+      - forge-it-db
+    networks:
+      - forge-it-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/api/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  forge-it-db:
+    image: mysql:8.0
+    container_name: forge-it-db
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: forgeit
+      MYSQL_USER: forgeit_user
+      MYSQL_PASSWORD: forgeit_password
+    ports:
+      - "3306:3306"
+    volumes:
+      - forge-it-mysql-data:/var/lib/mysql
+    networks:
+      - forge-it-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  forge-it-frontend:
+    image: nginx:latest
+    container_name: forge-it-frontend
+    ports:
+      - "5500:80"
+    volumes:
+      - ./frontend:/usr/share/nginx/html:ro
+      - ./frontend/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - forge-it-backend
+    networks:
+      - forge-it-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  forge-it-mysql-data:
+
+networks:
+  forge-it-network:
+    driver: bridge

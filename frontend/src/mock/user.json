@@ -1,0 +1,10 @@
+{
+  "fixture": "user",
+  "enabled": true,
+  "items": [
+    {
+      "id": 1,
+      "name": "User Fixture"
+    }
+  ]
+}

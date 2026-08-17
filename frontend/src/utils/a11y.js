@@ -1,0 +1,1 @@
+export const announce=msg=>{let el=document.getElementById('a11y-live');if(!el){el=document.createElement('div');el.id='a11y-live';el.className='sr-only';el.setAttribute('aria-live','polite');document.body.append(el)}el.textContent=msg};

@@ -1,0 +1,10 @@
+{
+  "fixture": "notification",
+  "enabled": true,
+  "items": [
+    {
+      "id": 1,
+      "name": "Notification Fixture"
+    }
+  ]
+}

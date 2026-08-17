@@ -1,0 +1,1 @@
+export const PHASES=[{"id": 1, "name": "Phases 1", "value": 10}, {"id": 1, "name": "Phases 2", "value": 20}, {"id": 1, "name": "Phases 3", "value": 30}, {"id": 1, "name": "Phases 4", "value": 40}, {"id": 1, "name": "Phases 5", "value": 50}, {"id": 1, "name": "Phases 6", "value": 60}, {"id": 1, "name": "Phases 7", "value": 70}, {"id": 1, "name": "Phases 8", "value": 80}];

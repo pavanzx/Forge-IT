@@ -1,0 +1,1 @@
+export const activity=items=>`<div class="timeline">${items.map((x,i)=>`<div class="timeline-item ${i%3===1?'info':''}">${x}<div class="small muted">${i<1?'just now':`${i+1}h ago`}</div></div>`).join('')}</div>`;

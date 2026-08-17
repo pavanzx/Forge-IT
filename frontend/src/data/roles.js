@@ -1,0 +1,1 @@
+export const ROLES=[{"id": 15, "name": "Roles 1", "value": 10}, {"id": 15, "name": "Roles 2", "value": 20}, {"id": 15, "name": "Roles 3", "value": 30}, {"id": 15, "name": "Roles 4", "value": 40}, {"id": 15, "name": "Roles 5", "value": 50}, {"id": 15, "name": "Roles 6", "value": 60}, {"id": 15, "name": "Roles 7", "value": 70}, {"id": 15, "name": "Roles 8", "value": 80}];

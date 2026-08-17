@@ -1,0 +1,1 @@
+export const TOOLS=[{"id": 0, "name": "Tools 1", "value": 10}, {"id": 0, "name": "Tools 2", "value": 20}, {"id": 0, "name": "Tools 3", "value": 30}, {"id": 0, "name": "Tools 4", "value": 40}, {"id": 0, "name": "Tools 5", "value": 50}, {"id": 0, "name": "Tools 6", "value": 60}, {"id": 0, "name": "Tools 7", "value": 70}, {"id": 0, "name": "Tools 8", "value": 80}];

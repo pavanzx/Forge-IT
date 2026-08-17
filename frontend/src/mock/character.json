@@ -1,0 +1,10 @@
+{
+  "fixture": "character",
+  "enabled": true,
+  "items": [
+    {
+      "id": 1,
+      "name": "Character Fixture"
+    }
+  ]
+}

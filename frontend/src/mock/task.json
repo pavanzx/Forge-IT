@@ -1,0 +1,10 @@
+{
+  "fixture": "task",
+  "enabled": true,
+  "items": [
+    {
+      "id": 1,
+      "name": "Task Fixture"
+    }
+  ]
+}

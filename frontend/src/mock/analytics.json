@@ -1,0 +1,10 @@
+{
+  "fixture": "analytics",
+  "enabled": true,
+  "items": [
+    {
+      "id": 1,
+      "name": "Analytics Fixture"
+    }
+  ]
+}

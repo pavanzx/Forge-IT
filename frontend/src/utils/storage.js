@@ -1,0 +1,1 @@
+export const load=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key))??structuredClone(fallback)}catch{return structuredClone(fallback)}};export const save=(key,value)=>localStorage.setItem(key,JSON.stringify(value));export const clear=key=>localStorage.removeItem(key);

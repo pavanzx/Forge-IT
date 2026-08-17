@@ -1,0 +1,1 @@
+export const characterCard=c=>`<div class="card dark"><div class="row-main"><img src="assets/${c.id}.png" style="height:70px;width:auto" alt="${c.name}"><div><b>${c.name}</b><div class="small muted" style="color:#9ba09d">${c.role}</div><p class="small" style="color:#d8dad8">${c.description}</p></div></div></div>`;
