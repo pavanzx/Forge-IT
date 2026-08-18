@@ -1,0 +1,2 @@
+/* Theme tokens intentionally keep a majority light/white UI while reserving ~30% visual weight for charcoal structural surfaces. */
+:root{--dark-weight:30%;--content-weight:70%}

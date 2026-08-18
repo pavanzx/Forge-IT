@@ -1,0 +1,1 @@
+export function ModuleCard({title,subtitle,progress}:{title:string;subtitle:string;progress:number}){return <div className="project-row"><div><b>{title}</b><span>{subtitle}</span></div><div className="mini-bar"><span style={{width:`${progress}%`}}/></div><strong>{progress}%</strong></div>}

@@ -1,1 +1,0 @@
-export const QUOTES=[{"id": 7, "name": "Quotes 1", "value": 10}, {"id": 7, "name": "Quotes 2", "value": 20}, {"id": 7, "name": "Quotes 3", "value": 30}, {"id": 7, "name": "Quotes 4", "value": 40}, {"id": 7, "name": "Quotes 5", "value": 50}, {"id": 7, "name": "Quotes 6", "value": 60}, {"id": 7, "name": "Quotes 7", "value": 70}, {"id": 7, "name": "Quotes 8", "value": 80}];

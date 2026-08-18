@@ -1,0 +1,1 @@
+import { SimpleModule } from "@/src/components/SimpleModule"; export default function Page(){return <SimpleModule title="Requirements" character="analyst" description="Review, edit, prioritize, and re-analyze the requirements extracted from the original idea." links={[{label:"Re-analyze",href:"/projects/demo"},{label:"Open Assistant",href:"/assistant"}]}/>}

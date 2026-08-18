@@ -1,0 +1,2 @@
+import { PublicModule } from "@/src/components/PublicModule";
+export default function Page(){return <PublicModule title="From idea to launch" character="analyst" description="Describe the idea, review requirements, select tools, inspect the roadmap, execute tasks, ask AI for help, then launch with confidence." links={[{label:"Try the workflow",href:"/auth"},{label:"Open Roadmap",href:"/roadmap"}]}/>} 

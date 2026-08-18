@@ -1,1 +1,0 @@
-export const TIPS=[{"id": 6, "name": "Tips 1", "value": 10}, {"id": 6, "name": "Tips 2", "value": 20}, {"id": 6, "name": "Tips 3", "value": 30}, {"id": 6, "name": "Tips 4", "value": 40}, {"id": 6, "name": "Tips 5", "value": 50}, {"id": 6, "name": "Tips 6", "value": 60}, {"id": 6, "name": "Tips 7", "value": 70}, {"id": 6, "name": "Tips 8", "value": 80}];

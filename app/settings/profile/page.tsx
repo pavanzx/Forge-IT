@@ -1,0 +1,1 @@
+import { SimpleModule } from "@/src/components/SimpleModule"; export default function Page(){return <SimpleModule title="Profile" description="Manage your Builder identity, bio, and avatar." links={[{label:"Settings",href:"/settings"}]}/>}

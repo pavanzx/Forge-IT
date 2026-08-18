@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="360" viewBox="0 0 320 360">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#dfe4e9"/></linearGradient><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ef4444"/><stop offset="1" stop-color="#11151a"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="12" flood-opacity=".16"/></filter></defs>
+<ellipse cx="160" cy="333" rx="86" ry="15" fill="#dfe3e8"/>
+<g filter="url(#s)">
+  <path d="M105 282 Q160 250 215 282 L232 316 Q160 347 88 316Z" fill="#11151a"/>
+  <circle cx="160" cy="122" r="62" fill="url(#g)" stroke="#101318" stroke-width="6"/>
+  <path d="M98 114 Q101 58 160 52 Q219 58 222 114 Q191 92 160 95 Q129 92 98 114Z" fill="url(#a)"/>
+  <circle cx="138" cy="123" r="8" fill="#11151a"/><circle cx="182" cy="123" r="8" fill="#11151a"/>
+  <path d="M135 150 Q160 166 185 150" stroke="#11151a" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <rect x="119" y="192" width="82" height="74" rx="24" fill="url(#g)" stroke="#12161b" stroke-width="6"/>
+  <path d="M100 209 Q74 229 82 272" fill="none" stroke="#11151a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M220 209 Q246 229 238 272" fill="none" stroke="#11151a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M131 269 L120 318 M189 269 L200 318" stroke="#11151a" stroke-width="20" stroke-linecap="round"/>
+  <rect x="146" y="211" width="28" height="28" rx="9" fill="url(#a)"/>
+  <text x="160" y="232" text-anchor="middle" font-family="Arial" font-size="16" font-weight="900" fill="#fff">A</text>
+</g>
+<text x="160" y="353" text-anchor="middle" font-family="Arial" font-size="15" font-weight="800" fill="#15181c">Guide</text>
+<text x="160" y="370" text-anchor="middle" font-family="Arial" font-size="9" fill="#7a838e">friendly navigator</text>
+</svg>

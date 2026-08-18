@@ -1,1 +1,0 @@
-import {esc} from '../utils/escape.js';export const taskRow=(t,on='')=>`<div class="list-row task-card"><div><div class="task-title">${esc(t.name)}</div><div class="task-meta">${esc(t.phase)} · ${t.done?'Completed':'In progress'}</div></div><button class="btn ${t.done?'':'primary'}" data-task="${t.id}" ${on}>${t.done?'✓ Done':'Complete'}</button></div>`;

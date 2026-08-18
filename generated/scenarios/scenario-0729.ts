@@ -1,0 +1,10 @@
+export const scenario = {
+  id: "SCN-0729",
+  module: "saved",
+  companion: "alert",
+  trigger: "contextual-check-0729",
+  userPrompt: "Need guidance on step 0729.",
+  bubble: "I noticed something worth checking before you continue.",
+  action: "Open guided explanation",
+  outcome: "Keep the project moving without silently changing the plan."
+} as const;

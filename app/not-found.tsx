@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound(){return <main className="page-center"><div className="panel" style={{textAlign:'center',maxWidth:520}}><span className="section-kicker">404 / LOST IN THE WORKSHOP</span><h1>That page is not forged yet.</h1><p className="muted">Use the main workspace to jump back into your project.</p><Link className="primary-button" href="/dashboard">Return to Dashboard</Link></div></main>}

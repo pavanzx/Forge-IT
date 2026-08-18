@@ -1,1 +1,0 @@
-export const wait=ms=>new Promise(r=>setTimeout(r,ms)); export const now=()=>new Date().toISOString(); export const relative=iso=>{const m=Math.floor((Date.now()-new Date(iso).getTime())/60000);return m<1?'just now':m<60?`${m}m ago`:m<1440?`${Math.floor(m/60)}h ago`:`${Math.floor(m/1440)}d ago`};

@@ -1,1 +1,0 @@
-export const unique=a=>[...new Set(a)]; export const groupBy=(a,key)=>a.reduce((o,x)=>((o[x[key]]??=[]).push(x),o),{}); export const sortBy=(a,key)=>[...a].sort((x,y)=>String(x[key]).localeCompare(String(y[key])));

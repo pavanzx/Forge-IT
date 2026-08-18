@@ -1,0 +1,1 @@
+import { SimpleModule } from "@/src/components/SimpleModule"; export default function Page(){return <SimpleModule title="Recommendations" character="scout" description="Compare compatibility, speed, cost, beginner fit, scalability, and customization for the current project." links={[{label:"Tool Explorer",href:"/tools"},{label:"Saved Tools",href:"/saved"}]}/>}

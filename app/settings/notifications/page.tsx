@@ -1,0 +1,1 @@
+import { SimpleModule } from "@/src/components/SimpleModule"; export default function Page(){return <SimpleModule title="Notifications" description="Control meaningful Forge-IT activity alerts without notification spam." links={[{label:"Settings",href:"/settings"}]}/>}

@@ -1,1 +1,0 @@
-export const message=(role,text)=>`<div class="message ${role==='user'?'user':''}">${role!=='user'?`<img src="assets/bot.png" style="height:34px" alt="Bot">`:''}<div class="bubble-msg">${text}</div></div>`;

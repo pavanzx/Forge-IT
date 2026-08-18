@@ -1,0 +1,1 @@
+import { SimpleModule } from "@/src/components/SimpleModule"; export default function Page(){return <SimpleModule title="Project Roadmap" character="alert" description="Follow the project's phases, dependencies, blockers, and next milestone." links={[{label:"Tasks",href:"/tasks"},{label:"Analytics",href:"/analytics"}]}/>}

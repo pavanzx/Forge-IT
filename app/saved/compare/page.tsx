@@ -1,0 +1,1 @@
+import { SimpleModule } from "@/src/components/SimpleModule"; export default function Page(){return <SimpleModule title="Compare Tools" character="scout" description="Compare saved technologies across cost, platform, AI capability, difficulty, speed, and scalability." links={[{label:"Saved Tools",href:"/saved"},{label:"Tool Explorer",href:"/tools"}]}/>}

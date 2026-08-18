@@ -1,1 +1,0 @@
-export const stepper=active=>`<div class="flex items-center gap-2">${[['1','Idea'],['2','Requirements'],['3','Recommendations']].map((x,i)=>`<span class="badge ${i+1===active?'red':''}">${x[0]} ${x[1]}</span>`).join('<span class="muted">→</span>')}</div>`;

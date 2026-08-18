@@ -1,0 +1,1 @@
+import { SimpleModule } from "@/src/components/SimpleModule"; export default function Page(){return <SimpleModule title="Account" description="Manage account access, password, and sign-out controls." links={[{label:"Settings",href:"/settings"},{label:"Forgot password",href:"/forgot-password"}]}/>}

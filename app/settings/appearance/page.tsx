@@ -1,0 +1,1 @@
+import { SimpleModule } from "@/src/components/SimpleModule"; export default function Page(){return <SimpleModule title="Appearance" description="Switch between light/dark visual systems and motion preferences." links={[{label:"Settings",href:"/settings"}]}/>}

@@ -1,0 +1,3 @@
+.generated-module-036{position:relative;isolation:isolate;overflow:hidden;animation:forge-float-036 5s ease-in-out infinite;animation-delay:0.00s}
+.generated-module-036::before{content:"";position:absolute;inset:-40%;z-index:-1;background:radial-gradient(circle at 46% 56%,rgba(239,68,56,.18),transparent 32%),radial-gradient(circle at 44% 34%,rgba(139,92,246,.12),transparent 34%)}
+@keyframes forge-float-036{0%,100%{transform:translate3d(0,0,0)}50%{transform:translate3d(0,-3px,0)}}

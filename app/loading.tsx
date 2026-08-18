@@ -1,0 +1,1 @@
+export default function Loading(){return <main className="page-center"><div className="panel"><span className="section-kicker">FORGE-IT</span><h2>Loading workspace…</h2><p className="muted">Preparing your next step.</p></div></main>}

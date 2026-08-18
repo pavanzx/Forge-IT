@@ -1,0 +1,1 @@
+import { SimpleModule } from "@/src/components/SimpleModule"; export default function Page(){return <SimpleModule title="Timeline" character="guide" description="Review the chronological project activity feed: requirements, tools, tasks, AI help, and milestones." links={[{label:"Open project",href:"/projects/demo"}]}/>}

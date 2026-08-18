@@ -1,0 +1,1 @@
+import { SimpleModule } from "@/src/components/SimpleModule"; export default function Page(){return <SimpleModule title="Security" character="alert" description="Review authentication, protected routes, and safe project-data handling." links={[{label:"Account",href:"/settings/account"}]}/>}

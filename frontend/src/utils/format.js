@@ -1,1 +1,0 @@
-export const pct=n=>`${Math.round(Number(n)||0)}%`; export const initials=s=>String(s||'Builder').split(/\s+/).map(x=>x[0]).join('').slice(0,2).toUpperCase(); export const clamp=(n,a=0,b=100)=>Math.max(a,Math.min(b,n));

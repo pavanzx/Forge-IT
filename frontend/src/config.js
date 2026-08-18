@@ -1,1 +1,0 @@
-export const CONFIG={APP_NAME:'Forge-IT',VERSION:'2.0.0-adventure',API_BASE:'http://localhost:8080/api',STORAGE_KEY:'forgeit_adventure_v2',RED:'#ff3b30',CHARACTERS:['guide','bot','analyst','alert','spark','scout'],MOTION:{walk:900,talk:180,teleport:80}};

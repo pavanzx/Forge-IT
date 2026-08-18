@@ -1,1 +1,0 @@
-export const phase=(i,name,pct,status='')=>`<div class="phase ${status}"><div class="phase-num">${i}</div><div><b style="font-size:10px">${name}</b><div class="phase-bar mt-2"><i style="width:${pct}%"></i></div></div><b class="small text-right">${pct}%</b></div>`;

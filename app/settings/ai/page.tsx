@@ -1,0 +1,1 @@
+import { SimpleModule } from "@/src/components/SimpleModule"; export default function Page(){return <SimpleModule title="AI Preferences" character="bot" description="Control how Forge-IT phrases recommendations, explanations, and assistance." links={[{label:"AI Assistant",href:"/assistant"}]}/>}

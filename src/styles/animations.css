@@ -1,0 +1,7 @@
+/* Dedicated motion layer: page transitions, character entrance, and ambient background movement. */
+@keyframes drift-x{0%,100%{transform:translateX(-8px)}50%{transform:translateX(8px)}}
+@keyframes shimmer{0%{background-position:-200% 0}100%{background-position:200% 0}}
+.background-field .orb-a{animation:drift-x 11s ease-in-out infinite}
+.background-field .orb-b{animation:drift-x 13s ease-in-out infinite reverse}
+.primary-button,.ghost-button,.secondary-button,.quick-action,.prompt-card,.tool-card,.project-row,.task{transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
+.primary-button:hover,.ghost-button:hover,.secondary-button:hover,.quick-action:hover,.prompt-card:hover,.tool-card:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(15,23,42,.08)}

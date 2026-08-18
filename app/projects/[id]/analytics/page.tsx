@@ -1,0 +1,1 @@
+import { SimpleModule } from "@/src/components/SimpleModule"; export default function Page(){return <SimpleModule title="Project Analytics" character="analyst" description="See completion, task distribution, activity, health, and estimated project time." links={[{label:"Open Analytics",href:"/analytics"},{label:"Open Reports",href:"/reports"}]}/>}
